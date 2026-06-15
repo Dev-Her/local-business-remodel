@@ -4,7 +4,7 @@ function Contact() {
   };
 
   return (
-    <div>
+    <section id="contact">
       <div className="container">
         <div className="row contact__row">
           <div className="contact__text__wrapper">
@@ -13,11 +13,14 @@ function Contact() {
               Ready to customize your ride? Come see or get in touch with us
               today!
             </p>
+
             <div className="contact__email">
               <i className="fa-solid fa-envelope"></i>
               <span>ktowncustoms@aol.com</span>
             </div>
+            
             <div className="contact__info">
+              <span className="contact__info__title">Hours & Location</span>
               <div className="contact__info__item">
                 <i className="fa-solid fa-phone"></i>
                 <span>407-846-0561</span>
@@ -56,7 +59,7 @@ function Contact() {
 
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

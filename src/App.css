@@ -704,6 +704,7 @@ nav {
 .contact__text__wrapper {
   display: flex;
   flex-direction: column;
+
   gap: 16px;
   width: 50%;
   padding-top: 4px;
@@ -742,9 +743,15 @@ nav {
 .contact__info {
   display: flex;
   flex-direction: column;
-  gap: 22px;
+  gap: 32px;
   margin-top: 44px;
   max-width: 460px;
+}
+
+.contact__info__title {
+  font-size: 24px;
+  font-weight: 600;
+  
 }
 
 .contact__info__item {
@@ -809,10 +816,18 @@ nav {
 .contact__submit {
   width: 100%;
   height: 46px;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 4px;
   background-color: var(--color-accent);
   color: var(--color-text-inverse);
   font-size: 16px;
   font-weight: 700;
+  transition: ease 250ms;
+}
+
+.contact__submit:hover {
+  border-color: var(--color-accent);
+  background-color: transparent;
+  color: var(--color-accent);
+  
 }

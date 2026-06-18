@@ -29,7 +29,7 @@ function Hero() {
                   </button>
                  
                    <button className="quote__btn__wrap">
-                  <a href="" className="quote__btn">
+                  <a href="#contact" className="quote__btn">
                     Get a Free Quote
                     <span className="arrow">→</span>
                   </a>

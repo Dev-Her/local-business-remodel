@@ -6,7 +6,7 @@ function Banner() {
             <div className="banner__stats">
                 <div className="banner__wrap">
                 <span className="banner__stat">Since 2007</span>
-                <span className="banner__stat2">15+ Years of Experience</span>
+                <span className="banner__stat2">19+ Years of Experience</span>
                 </div>
                 <div className="banner__wrap">
                 <span className="banner__stat">300+</span>

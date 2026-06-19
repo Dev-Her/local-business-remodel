@@ -1,6 +1,18 @@
 function Contact() {
   const handleSubmit = (event) => {
     event.preventDefault();
+
+    const formData = new FormData(event.currentTarget);
+    const name = formData.get("name");
+    const email = formData.get("email");
+    const vehicle = formData.get("vehicle");
+    const message = formData.get("message");
+    const subject = encodeURIComponent(`Quote request from ${name}`);
+    const body = encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\nVehicle / Service: ${vehicle}\n\nMessage:\n${message}`
+    );
+
+    window.location.href = `mailto:ktowncustoms@aol.com?subject=${subject}&body=${body}`;
   };
 
   return (
@@ -8,17 +20,26 @@ function Contact() {
       <div className="container">
         <div className="row contact__row">
           <div className="contact__text__wrapper">
-            <h2 className="contact__title">Contact <span className="contact__title__span">Us</span></h2>
+            <span className="contact__subtitle">Get started</span>
+            <h2 className="contact__title">
+              Request a <span className="contact__title__span">Quote</span>
+            </h2>
             <p className="contact__para">
-              Ready to customize your ride? Come see or get in touch with us
-              today!
+              Tell us what you want done and we will help you plan the right
+              tint, wrap, audio, or lighting setup for your vehicle.
             </p>
 
-            <div className="contact__email">
-              <i className="fa-solid fa-envelope"></i>
-              <span>ktowncustoms@aol.com</span>
+            <div className="contact__quick__actions">
+              <a href="tel:4078460561" className="contact__action">
+                <i className="fa-solid fa-phone"></i>
+                Call Now
+              </a>
+              <a href="mailto:ktowncustoms@aol.com" className="contact__action">
+                <i className="fa-solid fa-envelope"></i>
+                Email Us
+              </a>
             </div>
-            
+
             <div className="contact__info">
               <span className="contact__info__title">Hours & Location</span>
               <div className="contact__info__item">
@@ -48,15 +69,28 @@ function Contact() {
             </label>
 
             <label className="contact__field">
+              <span className="contact__label">Vehicle / Service Needed</span>
+              <input
+                className="contact__input"
+                type="text"
+                name="vehicle"
+                placeholder="Example: BMW tint, full wrap, subs"
+              />
+            </label>
+
+            <label className="contact__field">
               <span className="contact__label">Message</span>
-              <textarea className="contact__textarea" name="message" required></textarea>
+              <textarea
+                className="contact__textarea"
+                name="message"
+                required
+              ></textarea>
             </label>
 
             <button type="submit" className="contact__submit">
-              Submit
+              Send Quote Request
             </button>
           </form>
-
         </div>
       </div>
     </section>

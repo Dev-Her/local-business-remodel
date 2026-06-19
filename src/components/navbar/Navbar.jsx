@@ -45,14 +45,28 @@ function Navbar() {
             </a>
           </button>
 
-          <i className="fa-solid fa-bars open__menu" onClick={toggleMenu}></i>
+          <button
+            className="open__menu"
+            type="button"
+            aria-label="Open menu"
+            onClick={toggleMenu}
+          >
+            <i className="fa-solid fa-bars"></i>
+          </button>
       
       </nav>
 
 
 
       <nav className={menuOpen ? "menu menu--open" : "menu"}>
-        <i className="fa-solid fa-x close__menu" onClick={closeMenu}></i>
+        <button
+          className="close__menu"
+          type="button"
+          aria-label="Close menu"
+          onClick={closeMenu}
+        >
+          <i className="fa-solid fa-x"></i>
+        </button>
 
         <div className="menu__links">
           <a href="#services" className="menu__link" onClick={closeMenu}>Services</a>

@@ -1,0 +1,117 @@
+<svg width="1440" height="2200" viewBox="0 0 1440 2200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="2200" fill="#f2f2f2"/>
+
+  <rect width="1440" height="720" fill="#111"/>
+  <rect width="1440" height="720" fill="url(#heroGrad)"/>
+  <circle cx="1120" cy="350" r="230" fill="#d71920" opacity=".18"/>
+  <rect x="0" y="0" width="1440" height="720" fill="#000" opacity=".32"/>
+
+  <g transform="translate(120 36)">
+    <text x="0" y="28" fill="#d71920" font-family="Montserrat, Arial" font-size="26" font-weight="800">K-TOWN</text>
+    <text x="0" y="58" fill="#fff" font-family="Montserrat, Arial" font-size="24" font-weight="800">CUSTOMS</text>
+    <text x="430" y="38" fill="#e6e6e6" font-family="Montserrat, Arial" font-size="15" font-weight="700">HOME</text>
+    <text x="510" y="38" fill="#e6e6e6" font-family="Montserrat, Arial" font-size="15" font-weight="700">SERVICES</text>
+    <text x="625" y="38" fill="#e6e6e6" font-family="Montserrat, Arial" font-size="15" font-weight="700">GALLERY</text>
+    <text x="730" y="38" fill="#e6e6e6" font-family="Montserrat, Arial" font-size="15" font-weight="700">REVIEWS</text>
+    <rect x="910" y="8" width="150" height="42" rx="5" fill="#d71920"/>
+    <text x="940" y="35" fill="#fff" font-family="Montserrat, Arial" font-size="13" font-weight="800">GET QUOTE</text>
+  </g>
+
+  <g transform="translate(120 190)">
+    <text x="0" y="0" fill="#e6e6e6" font-family="Montserrat, Arial" font-size="18">Kissimmee, FL • Est. 2007 • Lifetime Warranty</text>
+    <text x="0" y="95" fill="#fff" font-family="Montserrat, Arial" font-size="68" font-weight="800">Custom Tint, Wraps</text>
+    <text x="0" y="175" fill="#fff" font-family="Montserrat, Arial" font-size="68" font-weight="800">&amp; Audio Installs</text>
+    <text x="0" y="245" fill="#d71920" font-family="Montserrat, Arial" font-size="68" font-weight="800">Built To Stand Out.</text>
+    <text x="0" y="310" fill="#f2f2f2" font-family="Montserrat, Arial" font-size="21" font-weight="600">Premium installs, clean finishes, and real local proof.</text>
+    <text x="0" y="342" fill="#f2f2f2" font-family="Montserrat, Arial" font-size="21" font-weight="600">Make the next step obvious: call, text, or request a quote.</text>
+    <rect x="0" y="385" width="180" height="50" rx="5" fill="#d71920"/>
+    <text x="42" y="417" fill="#fff" font-family="Montserrat, Arial" font-size="14" font-weight="800">CALL NOW</text>
+    <rect x="200" y="385" width="190" height="50" rx="5" fill="#050505"/>
+    <text x="242" y="417" fill="#fff" font-family="Montserrat, Arial" font-size="14" font-weight="800">VIEW WORK</text>
+  </g>
+
+  <g transform="translate(900 190)">
+    <rect x="0" y="0" width="360" height="440" rx="8" fill="#222"/>
+    <rect x="22" y="22" width="316" height="230" rx="6" fill="#333"/>
+    <path d="M48 210 C120 120 225 150 312 72 L338 252 L22 252 Z" fill="#d71920" opacity=".8"/>
+    <text x="34" y="306" fill="#fff" font-family="Montserrat, Arial" font-size="26" font-weight="800">Recent Build</text>
+    <text x="34" y="344" fill="#ddd" font-family="Montserrat, Arial" font-size="16">Ceramic tint + chrome delete</text>
+    <text x="34" y="378" fill="#ddd" font-family="Montserrat, Arial" font-size="16">Use real car photos here.</text>
+  </g>
+
+  <g transform="translate(120 780)">
+    <text x="0" y="0" fill="#d71920" font-family="Montserrat, Arial" font-size="16" font-weight="700">WHAT WE DO</text>
+    <text x="0" y="56" fill="#111" font-family="Montserrat, Arial" font-size="48" font-weight="800">Services that sell clearly.</text>
+    <text x="760" y="30" fill="#666" font-family="Montserrat, Arial" font-size="18" font-weight="600">Each card should explain benefits, not just list the service.</text>
+  </g>
+
+  <g transform="translate(120 900)">
+    <g>
+      <rect width="370" height="420" rx="8" fill="#151515"/>
+      <rect width="370" height="215" rx="8" fill="#3a3a3a"/>
+      <rect y="190" width="370" height="30" fill="#3a3a3a"/>
+      <text x="26" y="270" fill="#fff" font-family="Montserrat, Arial" font-size="26" font-weight="800">Ceramic Tint</text>
+      <text x="26" y="315" fill="#ddd" font-family="Montserrat, Arial" font-size="16">Heat rejection, UV protection,</text>
+      <text x="26" y="340" fill="#ddd" font-family="Montserrat, Arial" font-size="16">privacy, lifetime warranty.</text>
+      <text x="26" y="385" fill="#d71920" font-family="Montserrat, Arial" font-size="14" font-weight="800">GET TINT QUOTE  →</text>
+    </g>
+    <g transform="translate(410 0)">
+      <rect width="370" height="420" rx="8" fill="#151515"/>
+      <rect width="370" height="215" rx="8" fill="#444"/>
+      <rect y="190" width="370" height="30" fill="#444"/>
+      <text x="26" y="270" fill="#fff" font-family="Montserrat, Arial" font-size="26" font-weight="800">Vinyl Wraps</text>
+      <text x="26" y="315" fill="#ddd" font-family="Montserrat, Arial" font-size="16">Color changes, accents, roof</text>
+      <text x="26" y="340" fill="#ddd" font-family="Montserrat, Arial" font-size="16">wraps, chrome delete.</text>
+      <text x="26" y="385" fill="#d71920" font-family="Montserrat, Arial" font-size="14" font-weight="800">START A WRAP  →</text>
+    </g>
+    <g transform="translate(820 0)">
+      <rect width="370" height="420" rx="8" fill="#151515"/>
+      <rect width="370" height="215" rx="8" fill="#3a3a3a"/>
+      <rect y="190" width="370" height="30" fill="#3a3a3a"/>
+      <text x="26" y="270" fill="#fff" font-family="Montserrat, Arial" font-size="26" font-weight="800">Audio &amp; Lighting</text>
+      <text x="26" y="315" fill="#ddd" font-family="Montserrat, Arial" font-size="16">Subs, amps, ambient lighting,</text>
+      <text x="26" y="340" fill="#ddd" font-family="Montserrat, Arial" font-size="16">underglow, clean wiring.</text>
+      <text x="26" y="385" fill="#d71920" font-family="Montserrat, Arial" font-size="14" font-weight="800">ASK ABOUT AUDIO  →</text>
+    </g>
+  </g>
+
+  <g transform="translate(0 1400)">
+    <rect width="1440" height="170" fill="#e7e7e7"/>
+    <g transform="translate(160 58)">
+      <text x="0" y="0" fill="#d71920" font-family="Montserrat, Arial" font-size="34" font-weight="900">Since 2007</text>
+      <text x="0" y="38" fill="#222" font-family="Montserrat, Arial" font-size="16" font-weight="700">Local experience</text>
+      <text x="280" y="0" fill="#d71920" font-family="Montserrat, Arial" font-size="34" font-weight="900">4.9★</text>
+      <text x="280" y="38" fill="#222" font-family="Montserrat, Arial" font-size="16" font-weight="700">Google-style proof</text>
+      <text x="520" y="0" fill="#d71920" font-family="Montserrat, Arial" font-size="34" font-weight="900">Warranty</text>
+      <text x="520" y="38" fill="#222" font-family="Montserrat, Arial" font-size="16" font-weight="700">Put trust up front</text>
+      <text x="820" y="0" fill="#d71920" font-family="Montserrat, Arial" font-size="34" font-weight="900">Same Day</text>
+      <text x="820" y="38" fill="#222" font-family="Montserrat, Arial" font-size="16" font-weight="700">When available</text>
+    </g>
+  </g>
+
+  <g transform="translate(120 1650)">
+    <text x="0" y="0" fill="#d71920" font-family="Montserrat, Arial" font-size="16" font-weight="700">RECENT WORK</text>
+    <text x="0" y="56" fill="#111" font-family="Montserrat, Arial" font-size="48" font-weight="800">Make the photos carry the sale.</text>
+    <rect x="0" y="105" width="570" height="300" rx="8" fill="#222"/>
+    <rect x="615" y="105" width="270" height="140" rx="8" fill="#333"/>
+    <rect x="920" y="105" width="270" height="140" rx="8" fill="#444"/>
+    <rect x="615" y="265" width="270" height="140" rx="8" fill="#444"/>
+    <rect x="920" y="265" width="270" height="140" rx="8" fill="#333"/>
+  </g>
+
+  <g transform="translate(120 2110)">
+    <rect x="0" y="-85" width="1200" height="130" rx="8" fill="#111"/>
+    <text x="36" y="-35" fill="#fff" font-family="Montserrat, Arial" font-size="28" font-weight="800">Ready to customize your ride?</text>
+    <text x="36" y="0" fill="#ddd" font-family="Montserrat, Arial" font-size="17">End with phone, address, hours, socials, and a quote form that actually sends.</text>
+    <rect x="970" y="-55" width="170" height="48" rx="5" fill="#d71920"/>
+    <text x="1018" y="-24" fill="#fff" font-family="Montserrat, Arial" font-size="14" font-weight="800">GET QUOTE</text>
+  </g>
+
+  <defs>
+    <linearGradient id="heroGrad" x1="0" y1="0" x2="1440" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#000"/>
+      <stop offset=".55" stop-color="#181818"/>
+      <stop offset="1" stop-color="#38090b"/>
+    </linearGradient>
+  </defs>
+</svg>

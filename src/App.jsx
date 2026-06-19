@@ -7,6 +7,7 @@ import About from "./components/about/About.jsx";
 import ImageSlider from "./components/imageslider/index.jsx";
 import Reviews from "./components/reviews/Reviews.jsx";
 import Contact from "./components/contact/Contact.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 
 import "./App.css";
@@ -16,9 +17,9 @@ function App() {
     <>
       <section className="navbar__section">
         <Navbar />
+        <Hero />
       </section>
 
-      <Hero />
       <main>
         <Services />
         <Banner />
@@ -27,6 +28,7 @@ function App() {
         <Reviews />
         <Contact />
       </main>
+      <Footer />
     </>
   );
 }

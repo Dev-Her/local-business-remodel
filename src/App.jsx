@@ -21,10 +21,10 @@ function App() {
       </section>
 
       <main>
-        <Services />
         <Banner />
-        <About />
         <ImageSlider />
+        <Services />
+        <About />
         <Reviews />
         <Contact />
       </main>

@@ -23,9 +23,9 @@ function Footer() {
             <i className="fa-solid fa-phone"></i>
             407-846-0561
           </a>
-          <a href="mailto:ktowncustoms@aol.com">
+          <a href="mailto:ktown4126@gmail.com">
             <i className="fa-solid fa-envelope"></i>
-            ktowncustoms@aol.com
+            ktown4126@gmail.com
           </a>
           <span>
             <i className="fa-solid fa-location-dot"></i>

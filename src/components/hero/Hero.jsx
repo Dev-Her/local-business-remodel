@@ -5,15 +5,14 @@ function Hero() {
         <div className="header__row">
           <div className="header__text">
             <span className="header__subtitle">
-              Kissimmee, FL | Est. 2007 | Lifetime Warranty
+              Kissimmee, FL | Est. 2007 
             </span>
             <h1 className="header__title">
-              Kissimmee's Custom Tint, Wrap & Audio Shop.
+              Custom Builds That Make Your Ride Stand Out.
             </h1>
             <p className="header__para">
-              Ceramic window tint, vinyl wraps, audio, and lighting - installed
-              by certified pros. Walk in clean. Roll out a statement built to{" "}
-              <span className="hero__span">stand</span> out.
+              Ceramic tint, vinyl wraps, audio, and lighting installed with the
+              detail your vehicle deserves.
             </p>
 
             <div className="header__btn__wrapper">
@@ -26,7 +25,9 @@ function Hero() {
               <button className="quote__btn__wrap">
                 <a href="#contact" className="quote__btn">
                   Get a Free Quote
-                  <span className="arrow">-&gt;</span>
+                  <span className="arrow">
+                    <i className="fa-solid fa-arrow-right"></i>
+                  </span>
                 </a>
               </button>
             </div>

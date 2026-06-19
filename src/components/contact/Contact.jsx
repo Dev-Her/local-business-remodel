@@ -1,18 +1,40 @@
+import emailjs from "@emailjs/browser";
+import { useState } from "react";
+
 function Contact() {
-  const handleSubmit = (event) => {
+  const [status, setStatus] = useState("idle");
+  const [statusMessage, setStatusMessage] = useState("");
+
+  const handleSubmit = async (event) => {
     event.preventDefault();
 
-    const formData = new FormData(event.currentTarget);
-    const name = formData.get("name");
-    const email = formData.get("email");
-    const vehicle = formData.get("vehicle");
-    const message = formData.get("message");
-    const subject = encodeURIComponent(`Quote request from ${name}`);
-    const body = encodeURIComponent(
-      `Name: ${name}\nEmail: ${email}\nVehicle / Service: ${vehicle}\n\nMessage:\n${message}`
-    );
+    const form = event.currentTarget;
+    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
-    window.location.href = `mailto:ktowncustoms@aol.com?subject=${subject}&body=${body}`;
+    if (!serviceId || !templateId || !publicKey) {
+      setStatus("error");
+      setStatusMessage("Email service is not configured yet.");
+      return;
+    }
+
+    setStatus("loading");
+    setStatusMessage("");
+
+    try {
+      await emailjs.sendForm(serviceId, templateId, form, {
+        publicKey,
+      });
+
+      form.reset();
+      setStatus("success");
+      setStatusMessage("Thanks! Your quote request was sent. We'll get back to you soon.");
+    } catch (error) {
+      console.error("EmailJS send failed:", error);
+      setStatus("error");
+      setStatusMessage("Sorry, something went wrong. Please call or email us.");
+    }
   };
 
   return (
@@ -34,7 +56,7 @@ function Contact() {
                 <i className="fa-solid fa-phone"></i>
                 Call Now
               </a>
-              <a href="mailto:ktowncustoms@aol.com" className="contact__action">
+              <a href="mailto:ktown4126@gmail.com" className="contact__action">
                 <i className="fa-solid fa-envelope"></i>
                 Email Us
               </a>
@@ -54,10 +76,16 @@ function Contact() {
                 <i className="fa-solid fa-clock"></i>
                 <span>Monday - Friday, 9am - 6pm</span>
               </div>
+              <div className="contact__info__item">
+                <i className="fa-solid fa-envelope"></i>
+                <span>ktown4126@gmail.com</span>
+              </div>
             </div>
           </div>
 
           <form className="contact__form" onSubmit={handleSubmit}>
+            <input type="hidden" name="subject" value="Ktown Customs quote request" />
+
             <label className="contact__field">
               <span className="contact__label">Name</span>
               <input className="contact__input" type="text" name="name" required />
@@ -87,8 +115,18 @@ function Contact() {
               ></textarea>
             </label>
 
-            <button type="submit" className="contact__submit">
-              Send Quote Request
+            {statusMessage && (
+              <p className={`contact__status contact__status--${status}`}>
+                {statusMessage}
+              </p>
+            )}
+
+            <button
+              type="submit"
+              className="contact__submit"
+              disabled={status === "loading"}
+            >
+              {status === "loading" ? "Sending..." : "Send Quote Request"}
             </button>
           </form>
         </div>
